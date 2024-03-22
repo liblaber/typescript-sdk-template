@@ -22,9 +22,9 @@ describe('test Pets', () => {
   describe('test listPets', () => {
     test('test api call', () => {
       const scope = nock('http://petstore.swagger.io/v1')
-        .get('/pets?limit=4')
+        .get('/pets?limit=2')
         .reply(200, { data: {} });
-      return sdk.pets.listPets({ limit: 4 }).then((r: any) => expect(r.data).toEqual({}));
+      return sdk.pets.listPets({ limit: 2 }).then((r: any) => expect(r.data).toEqual({}));
     });
   });
 
@@ -38,23 +38,23 @@ describe('test Pets', () => {
   describe('test showPetById', () => {
     test('test api call', () => {
       const scope = nock('http://petstore.swagger.io/v1')
-        .get('/pets/dolorum')
+        .get('/pets/magnam')
         .reply(200, { data: {} });
-      return sdk.pets.showPetById('dolorum').then((r: any) => expect(r.data).toEqual({}));
+      return sdk.pets.showPetById('magnam').then((r: any) => expect(r.data).toEqual({}));
     });
 
     test('test will throw error if required fields missing', () => {
       const scope = nock('http://petstore.swagger.io/v1')
-        .get('/pets/odit')
+        .get('/pets/pariatur')
         .reply(200, { data: {} });
       return expect(async () => await sdk.pets.showPetById()).rejects.toThrow();
     });
 
     test('test will throw error on a non-200 response', () => {
       const scope = nock('http://petstore.swagger.io/v1')
-        .get('/pets/expedita')
+        .get('/pets/unde')
         .reply(404, { data: {} });
-      return expect(async () => await sdk.pets.showPetById('expedita')).rejects.toThrow();
+      return expect(async () => await sdk.pets.showPetById('unde')).rejects.toThrow();
     });
   });
 });
