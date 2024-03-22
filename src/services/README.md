@@ -43,7 +43,7 @@ import { Petstoresdk } from '@dwtestorg/petstorejs';
 const sdk = new Petstoresdk({ accessToken: process.env.PETSTORESDK_ACCESS_TOKEN });
 
 (async () => {
-  const input = {"id":-7003303,"name":"name","tag":"tag"};
+  const input = {"id":-38029268,"name":"name","tag":"tag"};
   const result = await sdk.pets
     .createPets(input);
   console.log(result);
@@ -79,7 +79,7 @@ const sdk = new Petstoresdk({ accessToken: process.env.PETSTORESDK_ACCESS_TOKEN 
 
 (async () => {
   const result = await sdk.pets
-    .listPets({ limit: -27373522 });
+    .listPets({ limit: -90936223 });
   console.log(result);
 })();
 
