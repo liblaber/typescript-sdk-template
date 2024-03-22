@@ -18,6 +18,10 @@
     "lib": ["ES2021.String", "dom", "esnext"],
     "sourceMap": true
   },
-  "include": ["./src/"],
-  "exclude": ["src/client/@custom_types"]
+  "include": [
+    "./src/"
+  ],
+  "exclude": [
+    "src/client/@custom_types"
+  ]
 }
