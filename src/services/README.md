@@ -37,13 +37,13 @@ Returns a dict object.
 
 **Example Usage Code Snippet**
 ```Typescript
-import { Petstoresdk } from '@dworg/dwjs';
+import { Petstoresdk } from '@dworg/petstorejs';
 
 
 const sdk = new Petstoresdk({ accessToken: process.env.PETSTORESDK_ACCESS_TOKEN });
 
 (async () => {
-  const input = {"id":-72189192,"name":"name","tag":"tag"};
+  const input = {"id":-7203812,"name":"name","tag":"tag"};
   const result = await sdk.pets
     .createPets(input);
   console.log(result);
@@ -72,14 +72,14 @@ Pets
 
 **Example Usage Code Snippet**
 ```Typescript
-import { Petstoresdk } from '@dworg/dwjs';
+import { Petstoresdk } from '@dworg/petstorejs';
 
 
 const sdk = new Petstoresdk({ accessToken: process.env.PETSTORESDK_ACCESS_TOKEN });
 
 (async () => {
   const result = await sdk.pets
-    .listPets({ limit: -75416899 });
+    .listPets({ limit: -63108094 });
   console.log(result);
 })();
 
@@ -104,7 +104,7 @@ Pet
 
 **Example Usage Code Snippet**
 ```Typescript
-import { Petstoresdk } from '@dworg/dwjs';
+import { Petstoresdk } from '@dworg/petstorejs';
 
 
 const sdk = new Petstoresdk({ accessToken: process.env.PETSTORESDK_ACCESS_TOKEN });

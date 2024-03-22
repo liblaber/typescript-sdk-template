@@ -13,7 +13,7 @@ The Typescript SDK for Petstoresdk.
 - [License](#license)
 ## Installation
 ```sh
-npm install dwjs  
+npm install petstorejs  
 ```
 ## Authentication
 To see whether an endpoint needs a specific type of authentication check the endpoint's documentation.
@@ -38,7 +38,7 @@ Here is a simple program demonstrating usage of this SDK. It can also be found i
 When running the sample make sure to use `npm install` to install all the dependencies.
 
 ```Typescript
-import { Petstoresdk } from '@dworg/dwjs';
+import { Petstoresdk } from '@dworg/petstorejs';
 
 
 const sdk = new Petstoresdk({ accessToken: process.env.PETSTORESDK_ACCESS_TOKEN });
@@ -95,13 +95,13 @@ Returns a dict object.
 
 **Example Usage Code Snippet**
 ```Typescript
-import { Petstoresdk } from '@dworg/dwjs';
+import { Petstoresdk } from '@dworg/petstorejs';
 
 
 const sdk = new Petstoresdk({ accessToken: process.env.PETSTORESDK_ACCESS_TOKEN });
 
 (async () => {
-  const input = {"id":-72189192,"name":"name","tag":"tag"};
+  const input = {"id":-7203812,"name":"name","tag":"tag"};
   const result = await sdk.pets
     .createPets(input);
   console.log(result);
@@ -130,14 +130,14 @@ Pets
 
 **Example Usage Code Snippet**
 ```Typescript
-import { Petstoresdk } from '@dworg/dwjs';
+import { Petstoresdk } from '@dworg/petstorejs';
 
 
 const sdk = new Petstoresdk({ accessToken: process.env.PETSTORESDK_ACCESS_TOKEN });
 
 (async () => {
   const result = await sdk.pets
-    .listPets({ limit: -75416899 });
+    .listPets({ limit: -63108094 });
   console.log(result);
 })();
 
@@ -162,7 +162,7 @@ Pet
 
 **Example Usage Code Snippet**
 ```Typescript
-import { Petstoresdk } from '@dworg/dwjs';
+import { Petstoresdk } from '@dworg/petstorejs';
 
 
 const sdk = new Petstoresdk({ accessToken: process.env.PETSTORESDK_ACCESS_TOKEN });

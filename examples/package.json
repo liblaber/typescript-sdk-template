@@ -1,9 +1,9 @@
 {
-  "name": "@dworg/dwjs-example",
+  "name": "@dworg/petstorejs-example",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@dworg/dwjs": "file:../"
+    "@dworg/petstorejs": "file:../"
   },
   "scripts": {
     "setup": "npm --prefix ../ install && npm --prefix ../ run build && npm install",
