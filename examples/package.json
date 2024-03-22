@@ -1,9 +1,9 @@
 {
-  "name": "@petstore/petstoreJS-example",
+  "name": "@dmusrorg/dmusrjs-example",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@petstore/petstoreJS": "file:../"
+    "@dmusrorg/dmusrjs": "file:../"
   },
   "scripts": {
     "setup": "npm --prefix ../ install && npm --prefix ../ run build && npm install",
