@@ -130,5 +130,3 @@ dist
 .pnp.*
 
 .parcel-cache
-
-.DS_Store
