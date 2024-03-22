@@ -1,6 +1,6 @@
 {
   "liblabVersion": "1.1.41",
-  "date": "2024-03-22T00:26:31.760Z",
+  "date": "2024-03-22T00:46:45.248Z",
   "config": {
     "authentication": {
       "access": {
@@ -12,7 +12,7 @@
     "inputFileName": "/tmp/resources/spec/open-api-spec.json",
     "environmentVariables": [],
     "fileOutput": "/tmp",
-    "tempDir": "/tmp/liblab-codegen-1.1.41-0R65EU",
+    "tempDir": "/tmp/liblab-codegen-1.1.41-LWAf46",
     "inferServiceNames": false,
     "httpLibrary": {
       "name": "axios",
@@ -37,8 +37,8 @@
       "queriesData": []
     },
     "generateEnv": true,
-    "npmName": "petstoreJS",
-    "npmOrg": "petstore",
+    "npmName": "dmusrjs",
+    "npmOrg": "dmusrorg",
     "injectedModels": [],
     "license": {
       "type": "MIT",

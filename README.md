@@ -19,7 +19,7 @@ The Typescript SDK for Petstoresdk.
 ## Installation
 
 ```sh
-npm install petstoreJS
+npm install dmusrjs
 ```
 
 ## Authentication
@@ -55,7 +55,7 @@ Here is a simple program demonstrating usage of this SDK. It can also be found i
 When running the sample make sure to use `npm install` to install all the dependencies.
 
 ```Typescript
-import { Petstoresdk } from '@petstore/petstoreJS';
+import { Petstoresdk } from '@dmusrorg/dmusrjs';
 
 
 const sdk = new Petstoresdk({ accessToken: process.env.PETSTORESDK_ACCESS_TOKEN });
@@ -112,13 +112,13 @@ Returns a dict object.
 **Example Usage Code Snippet**
 
 ```Typescript
-import { Petstoresdk } from '@petstore/petstoreJS';
+import { Petstoresdk } from '@dmusrorg/dmusrjs';
 
 
 const sdk = new Petstoresdk({ accessToken: process.env.PETSTORESDK_ACCESS_TOKEN });
 
 (async () => {
-  const input = {"id":-90015228,"name":"name","tag":"tag"};
+  const input = {"id":-52425648,"name":"name","tag":"tag"};
   const result = await sdk.pets
     .createPets(input);
   console.log(result);
@@ -148,14 +148,14 @@ Pets
 **Example Usage Code Snippet**
 
 ```Typescript
-import { Petstoresdk } from '@petstore/petstoreJS';
+import { Petstoresdk } from '@dmusrorg/dmusrjs';
 
 
 const sdk = new Petstoresdk({ accessToken: process.env.PETSTORESDK_ACCESS_TOKEN });
 
 (async () => {
   const result = await sdk.pets
-    .listPets({ limit: -24866775 });
+    .listPets({ limit: -55183035 });
   console.log(result);
 })();
 
@@ -181,7 +181,7 @@ Pet
 **Example Usage Code Snippet**
 
 ```Typescript
-import { Petstoresdk } from '@petstore/petstoreJS';
+import { Petstoresdk } from '@dmusrorg/dmusrjs';
 
 
 const sdk = new Petstoresdk({ accessToken: process.env.PETSTORESDK_ACCESS_TOKEN });
