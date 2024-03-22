@@ -1,6 +1,6 @@
 {
   "liblabVersion": "1.1.41",
-  "date": "2024-03-22T15:50:22.806Z",
+  "date": "2024-03-22T15:58:26.286Z",
   "config": {
     "authentication": {
       "access": {
@@ -14,7 +14,7 @@
     "inputFileName": "/tmp/resources/spec/open-api-spec.json",
     "environmentVariables": [],
     "fileOutput": "/tmp",
-    "tempDir": "/tmp/liblab-codegen-1.1.41-5UQpVz",
+    "tempDir": "/tmp/liblab-codegen-1.1.41-v0W1V5",
     "inferServiceNames": false,
     "httpLibrary": {
       "name": "axios",
@@ -32,7 +32,7 @@
     "privateRepo": false,
     "githubRef": "",
     "sdkName": "Petstoresdk",
-    "sdkVersion": "1.0.0",
+    "sdkVersion": "2.0.0",
     "retry": {
       "enabled": true,
       "maxAttempts": 3,
