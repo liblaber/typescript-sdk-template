@@ -46,7 +46,7 @@
     "version": "tsc --version",
     "prepublishOnly": "npm run build"
   },
-  "name": "@dworg/dwjs",
+  "name": "@dworg/petstorejs",
   "description": "Petstoresdk",
   "version": "1.0.0",
   "author": "Petstoresdk",
