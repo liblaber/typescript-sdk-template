@@ -118,7 +118,7 @@ import { Petstoresdk } from '@dworg/dwjs';
 const sdk = new Petstoresdk({ accessToken: process.env.PETSTORESDK_ACCESS_TOKEN });
 
 (async () => {
-  const input = {"id":-68604335,"name":"name","tag":"tag"};
+  const input = {"id":-67521967,"name":"name","tag":"tag"};
   const result = await sdk.pets
     .createPets(input);
   console.log(result);
@@ -155,7 +155,7 @@ const sdk = new Petstoresdk({ accessToken: process.env.PETSTORESDK_ACCESS_TOKEN 
 
 (async () => {
   const result = await sdk.pets
-    .listPets({ limit: -13360770 });
+    .listPets({ limit: -47508293 });
   console.log(result);
 })();
 
