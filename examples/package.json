@@ -1,9 +1,9 @@
 {
-  "name": "@dmusrorg/dmusrjs-example",
+  "name": "@dworg/dwjs-example",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@dmusrorg/dmusrjs": "file:../"
+    "@dworg/dwjs": "file:../"
   },
   "scripts": {
     "setup": "npm --prefix ../ install && npm --prefix ../ run build && npm install",
