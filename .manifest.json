@@ -1,6 +1,6 @@
 {
   "liblabVersion": "1.1.41",
-  "date": "2024-03-22T13:04:28.295Z",
+  "date": "2024-03-22T15:15:03.183Z",
   "config": {
     "authentication": {
       "access": {
@@ -8,20 +8,27 @@
       }
     },
     "deliveryType": "zip",
-    "languages": ["typescript"],
+    "languages": [
+      "typescript"
+    ],
     "inputFileName": "/tmp/resources/spec/open-api-spec.json",
     "environmentVariables": [],
     "fileOutput": "/tmp",
-    "tempDir": "/tmp/liblab-codegen-1.1.41-RUQ6PG",
+    "tempDir": "/tmp/liblab-codegen-1.1.41-LFE9YH",
     "inferServiceNames": false,
     "httpLibrary": {
       "name": "axios",
       "packages": {
         "axios": "^1.0.0"
       },
-      "languages": ["javascript", "typescript"]
+      "languages": [
+        "javascript",
+        "typescript"
+      ]
     },
-    "auth": ["bearer"],
+    "auth": [
+      "bearer"
+    ],
     "privateRepo": false,
     "githubRef": "",
     "sdkName": "Petstoresdk",
@@ -40,12 +47,15 @@
     "npmName": "dwjs",
     "npmOrg": "dworg",
     "injectedModels": [],
+    "includeWatermark": true,
     "license": {
       "type": "MIT",
       "name": "MIT",
       "url": "https://opensource.org/licenses/MIT"
     },
-    "ignoreFiles": [".devcontainer"],
+    "ignoreFiles": [
+      ".devcontainer"
+    ],
     "alwaysInitializeOptionals": false,
     "environments": [],
     "reservedKeywords": {},
