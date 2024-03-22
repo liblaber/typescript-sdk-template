@@ -1,4 +1,4 @@
-import { Petstoresdk } from '@dmusrorg/dmusrjs';
+import { Petstoresdk } from '@dworg/dwjs';
 
 const sdk = new Petstoresdk({ accessToken: process.env.PETSTORESDK_ACCESS_TOKEN });
 
