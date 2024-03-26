@@ -1,9 +1,9 @@
-# Petstoresdk Typescript SDK 2.0.0
+# Petstoresdk Typescript SDK 2.0.1
 
 The Typescript SDK for Petstoresdk.
 
-- API version: 2.0.0
-- SDK version: 2.0.0
+- API version: 2.0.1
+- SDK version: 2.0.1
 
 ## Table of Contents
 
@@ -117,7 +117,7 @@ import { Petstoresdk } from '@dwtestorg/petstorejs';
 const sdk = new Petstoresdk({ accessToken: process.env.PETSTORESDK_ACCESS_TOKEN });
 
 (async () => {
-  const input = { id: -44845070, name: 'name', tag: 'tag' };
+  const input = { id: 95984534, name: 'name', tag: 'tag' };
   const result = await sdk.pets.createPets(input);
   console.log(result);
 })();
@@ -151,7 +151,7 @@ import { Petstoresdk } from '@dwtestorg/petstorejs';
 const sdk = new Petstoresdk({ accessToken: process.env.PETSTORESDK_ACCESS_TOKEN });
 
 (async () => {
-  const result = await sdk.pets.listPets({ limit: -36563714 });
+  const result = await sdk.pets.listPets({ limit: -51505111 });
   console.log(result);
 })();
 

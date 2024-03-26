@@ -111,7 +111,7 @@ export default class HTTPLibrary implements HTTPClient {
   }
 
   private getUserAgentHeader(): Headers {
-    const userAgentBase = 'Petstoresdk/2.0.0';
+    const userAgentBase = 'Petstoresdk/2.0.1';
 
     let userAgent = '';
     if (typeof window !== 'undefined') {
