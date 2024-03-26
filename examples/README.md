@@ -1,9 +1,11 @@
 # @dwtestorg/petstorejs-example
+
 A basic example of how to use the @dwtestorg/petstorejs package.
 
 ## Installation
 
 In the event `@dwtestorg/petstorejs` is not published to npm, you can install it locally by running the following command in the examples folder:
+
 ```sh
 npm run setup
 ```
@@ -11,6 +13,7 @@ npm run setup
 This will rebuild the parent package and install it locally.
 
 Otherwise you can install it from npm:
+
 ```sh
 npm install @dwtestorg/petstorejs
 ```
@@ -18,6 +21,7 @@ npm install @dwtestorg/petstorejs
 ## Usage
 
 To run the example, run the following command in the examples folder:
+
 ```sh
 npm run start
 ```
