@@ -4,7 +4,7 @@ This template helps developers get started with publishing the TypeScript SDK to
 ## Prerequisites
 The user will need the following:
 
-- An account with npmjs registry with an automation access token that can bypass two-factor authentication (2FA) when publishing an npm package
+- An account with npmjs Registry with an automation access token that can bypass two-factor authentication (2FA) when publishing an npm package
 
 ## Contents
 This repository contains the following:
@@ -19,4 +19,7 @@ This repository contains the following:
 
 2. Create a release in the target SDK Repo.
 
-3. The GitHub Action `Publish to npm Registry` in the target SDK Repo publishes the package to npmjs registry.
+3. Set the npmjs Registry's automation access token as an actions secret `NPM_TOKEN` in the target SDK Repo.
+![SDK Repository secret](images/sdk_repo_secret.jpg)
+
+4. The GitHub Action `Publish to npm Registry` in the target SDK Repo publishes the package to npmjs registry.
