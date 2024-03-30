@@ -18,7 +18,6 @@ This repository contains the following:
 1. Create a new target TypeScript SDK Repo by clicking the **Use this template** button at the top of this repository.
 
 2. Set the npmjs Registry's automation access token as an actions secret `NPM_TOKEN` in the target SDK Repo.
-![SDK Repository secret](images/sdk_repo_secret.jpg)
 
 3. Create a release in the target SDK Repo.
 
